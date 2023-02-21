@@ -149,13 +149,45 @@ h2{
     padding-top: 1%;
     padding-bottom: 2%;
 }
-.pink{
-    background-color: rgb(231,129,132);
-    width: calc(100%/3);
-    height: 200px;
+
+/* LISTE CON LINK INFORMATIVI */
+.slot-1{
+    width: calc(100%/4);
+    min-height: 200px;
+    color: white;
+    padding-right: 5%;
+}
+#titolo-slot{
+    color: rgb(64,78,237);
+}
+.bandiera{
+    max-width: 20px;
+}
+.logo{
+    border: 1px solid white;
+    min-height: 20px;
+    width: 5%;
+    margin-inline: 2%;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
 }
 .cyan{
-    background-color: cyan;
     width: calc(100%/6);
-    height: 200px;
+    min-height: 200px;
+}
+.titolo-slot{
+    color: rgb(64,78,237);
+}
+
+/* FINALE DELLA PAGINA */
+
+hr{
+    margin: 20px 20%;
+}
+.ending{
+    margin-inline: 20%;
+    display: flex;
+    justify-content: space-between;
 }
