@@ -2,41 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
+/* UTILITY */
 .center{
     display: flex;
     justify-content: center;
 }
 .bordi{
-    border: 1px dashed black;
+    border: none;
+    border-radius: 25px;
 }
-.bg-block{
-    background-color: blue;
+
+/* INIZIO HEADER */
+li{
+    list-style: none;
+    padding: 5px;
+    color: white;
+}
+.login{
+    padding: 1%;
+    text-align: center;
+}
+#sfondo{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 nav{
     padding-top: 1%;
     padding-bottom: 1%;
-    background-color: cyan;
+    padding-inline: 20%;
+    display: flex;
+    justify-content: space-between;
 }
-.link{
-    padding-inline: 15%;
-    background-color: orange;
-}
-.logo{
-    padding-right: 5%;
-    background-color: orange;
-}
-.login{
-    padding-left: 5%;
-    background-color: orange;
-}
-.block{
-    height: 200px;
+.testo{
+    min-height: 20px;
     width: 40%;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2%;
-    background-color: pink;
+    color: white;
+    text-align: center;
 }
+.mac{
+    padding: 1%;
+    text-align: center;
+}
+.apri{
+    padding: 1%;
+    text-align: center;
+    color: white;
+    background-color: rgb(22, 21, 21);
+}
+.bottoni{
+    padding-bottom: 15%;
+}
+/* FINE HEADER */
+
 section{
     margin-top: 2%;
     margin-bottom: 2%;
